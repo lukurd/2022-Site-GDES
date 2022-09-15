@@ -1,0 +1,20 @@
+
+.xleftcol {
+    float: left;
+    width: 33%;
+    background:#809900;
+ }
+ .xmiddlecol {
+    float: left;
+    width: 34%;
+    background:#eff2df;
+ }
+
+ body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    background-color: white; 
+}
