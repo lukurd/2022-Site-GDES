@@ -1,17 +1,17 @@
 
 
         	.letter {
-
+          
+            z-index: 3;
         		width:200px; /*resize as you see fit */
         		height:300px; /*resize as you see fit */
         		display:inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
-        		border:1px solid #000; /*feel free to remove or hide this rule */
         		position:relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
         	}
 
 
 			.letter-a-backshape{
-				
+				z-index: 3;
 				border-radius: 27% 27% 27% 27%;
   width: 200px;
   height: 300px;
@@ -30,55 +30,55 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1BB24B',endColorstr='#97C93D' , GradientType=0);
   
 }
-.letter-a-innershape{
+.letter-a-innershape{z-index: 3;
 	top:21%;
 left:30%;
 border-radius: 29% 29% 29% 0;
   width: 74px;
   height: 100px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position:absolute;
 }
 
-.letter-h-topcut{
+.letter-h-topcut{z-index: 3;
 left:30%;
 border-radius: 0 0 29% 0;
   width: 74px;
   height: 150px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position:absolute;
 }
 
 
-.letter-a-bottomspace{
+.letter-a-bottomspace{z-index: 3;
 	top:71%;
 left:30%;
 border-radius: 29% 0 0 0;
   width: 74px;
   height: 100px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position:absolute;
 }
 
-.letter-b-lilinnercircle {
+.letter-b-lilinnercircle {z-index: 3;
 	left:25%;
 	top:14%;
 			width: 50px;
   height: 50px;
   border-radius: 50%;
   position:absolute;
- background: white;	}
+ background: #90c83f;	}
 
- .letter-b-biginnercircle {
+ .letter-b-biginnercircle {z-index: 3;
 	left:40%;
 	top:62%;
 			width: 60px;
   height: 60px;
   border-radius: 50%;
   position:absolute;
- background: white;	}
+ background: #90c83f;	}
 
-.letter-b-lilcircle {
+.letter-b-lilcircle {z-index: 3;
 
 			width: 145px;
   height: 145px;
@@ -94,7 +94,7 @@ border-radius: 29% 0 0 0;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#97C93D',endColorstr='#1BB24B' , GradientType=1);
 			}
 	
-			.letter-b-bigcircle {
+			.letter-b-bigcircle {z-index: 3;
 				top:40.3%;
 	left:10%;
 			width: 180px;
@@ -111,7 +111,7 @@ border-radius: 29% 0 0 0;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#97C93D',endColorstr='#1BB24B' , GradientType=1);
 			}
 
-			.letter-b-leftarm {
+			.letter-b-leftarm {z-index: 3;
 			top:25%;
 			width: 102px;
   height: 226px;
@@ -127,7 +127,7 @@ border-radius: 29% 0 0 0;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#97C93D',endColorstr='#1BB24B' , GradientType=1);
 }	
 
-.letter-c-circle {
+.letter-c-circle {z-index: 3;
 				top:0%;
 	left:0%;
 			width: 200px;
@@ -143,14 +143,14 @@ border-radius: 29% 0 0 0;
   background : linear-gradient(50.23deg, rgba(147, 200, 64, 1) 0%, rgba(40, 179, 75, 1) 52.97%, rgba(146, 200, 64, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endColorstr='#92C840' , GradientType=1);	}
 
-			.letter-c-cutout {
+			.letter-c-cutout {z-index: 3;
 				
 				top: 10%;
 				left:35%;
 	border-radius: 100% 100% 100% 100%;
   width: 150px;
   height: 150px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position: absolute;
 }
 
@@ -175,7 +175,7 @@ border-radius: 29% 0 0 0;
 				border-radius: 80% 100% 100% 0;
 				width: 85px;
 			  height: 140px;
-			 background: rgb(255, 255, 255);
+			 background: #90c83f;
 			  position:absolute;
 			
 			}
@@ -204,7 +204,7 @@ border-radius: 29% 0 0 0;
 	border-radius: 100% 100% 100% 100%;
   width: 150px;
   height: 150px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position: absolute;
 			}
 
@@ -248,7 +248,7 @@ border-radius: 29% 0 0 0;
 			left: 35%;
   height: 70px;
   position:absolute;
- background: white;
+ background: #90c83f;
 }	
 
 
@@ -291,7 +291,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
 	top: 13.5%;
 	left:20%;
 	border-radius: 50%;
-	background: rgb(255, 255, 255);
+	background: #90c83f;
 	position:absolute;
 }
 
@@ -301,7 +301,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
 	top: 25%;
 	left:-16%;
 	border-radius: 50%;
-	background: rgb(255, 255, 255);
+	background: #90c83f;
 	position:absolute;
 }
 
@@ -362,7 +362,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
 	border-radius: 100% 100% 100% 100%;
   width: 200px;
   height: 230px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position: absolute;
 			}
  
@@ -515,7 +515,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
   height: 130px;
   border-radius: 50%;
   position:absolute;
- background: white;	}
+ background: #90c83f;	}
 
 			.letter-m-1circle {
         rotate:180deg;
@@ -632,7 +632,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
 	border-radius: 100% 100% 100% 100%;
   width: 150px;
   height: 180px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position: absolute;
 			}
 
@@ -690,7 +690,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
 				left: 30%;
 					width: 80px;
   height: 80px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   border-radius: 50%;
   position:absolute;
  
@@ -753,7 +753,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
         rotate:25deg;
 					width: 140px;
   height: 60px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   border-radius: 100% 0 0 100%;
   position:absolute;
  
@@ -766,7 +766,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93C840',endCo
 				top: 59%;
 					width: 140px;
   height: 60px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   border-radius: 100% 0 0 100%;
   position:absolute;
  
@@ -855,7 +855,7 @@ left:33%;
 border-radius: 0 0 100% 100%;
   width: 70px;
   height: 200px;
-  background: rgb(255, 255, 255);
+  background: #90c83f;
   position:absolute;
 }
 
